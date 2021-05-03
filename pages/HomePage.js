@@ -8,7 +8,7 @@ export default function App(props) {
     <AntDesign name="contacts" size={100} color="white"/>
 
   <View style={styles.addSquare}>
-<Button title='Friends' type="outline"  color='white' onPress={()=> props.navigation.navigate('Contacts')} />
+<Button title='View Contacts' type="outline"  color='white' onPress={()=> props.navigation.navigate('Contacts')} />
       </View>
   </View>
   )
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   addSquare:{
     height: 40,
-    width: 80,
+    width: 140,
     backgroundColor: 'red',
   }
 
